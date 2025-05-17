@@ -1,0 +1,139 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 35px 12%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 100;
+}
+
+.logo{
+  font-size: 40px;
+  color: rgb(0, 98, 255);
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.logo:hover{
+  color: rgb(255, 0, 0);
+  text-shadow:0 0 25px rgb(255, 0, 0),
+              0 0 50px rgb(255, 0, 0);
+  transform: scale(1.1);
+}
+
+span{
+  color: rgb(0, 98, 255);
+}
+
+.navbar a{
+  font-size: 18px;
+  color: rgb(0, 98, 255);
+  font-weight: 500;
+  margin: 80px;
+  border-bottom: 3px solid transparent;
+  text-shadow:0 0 25px rgb(0, 98, 255),
+              0 0 50px rgb(0, 98, 255);
+  transition: 0.3s ease;
+}
+
+.navbar :hover,
+.navbar a:active{
+  color: rgb(255, 0, 0);
+  border-bottom: 3px rgb(255, 0, 0);
+  text-shadow:0 0 25px rgb(255, 0, 0),
+              0 0 50px rgb(255, 0, 0)
+}
+
+.active{
+  align-items: center;
+  color: rgb(255, 0, 0);
+  border-bottom: 3px rgb(255, 0, 0);
+  text-shadow:0 0 25px rgb(255, 0, 0),
+              0 0 50px rgb(255, 0, 0);
+}
+
+.Contact{
+  position: absolute;
+  top: 15%;
+  right: 8%;
+  transform: translate(40%,40%);
+  color: rgb(0, 98, 255);
+  font-size: 18px;
+  font-weight: 500;
+  border: 2px solid rgb(0, 98, 255);
+  padding: 10px 30px;
+  border-radius: 30px;
+  transition: 0.3s ease;
+  text-shadow:0 0 25px rgb(0, 98, 255),
+              0 0 50px rgb(0, 98, 255);
+}
+
+.contact:hover{
+  background-color: rgb(255, 0, 0);
+  box-shadow: 0 0 25px rgb(255, 0, 0);
+  color: rgb(0, 98, 255);
+}
+
+.home{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px 10% 0;
+}
+
+.home-content h3{
+  font-size: 18px;
+  font-weight: 700;
+  color: black;
+}
+
+.home-content h1{
+  font-size: 40px;
+  font-weight: 600;
+  color: rgb(0, 98, 255);
+  text-shadow:0 0 25px rgb(0, 98, 255),
+              0 0 50px rgb(0, 98, 255);
+}
+
+.home-img img{
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 50%;
+  float:right;
+  border: 0px solid rgb(0, 98, 255);
+  box-shadow:0 0 25px rgb(0, 98, 255),
+              0 0 50px rgb(0, 98, 255), 
+              0 0 100px rgb(0, 98, 255);
+}
+
+.footer{
+  color: black;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 6px;
+  background: rgb(247, 247, 165);
+  text-align: center;
+  align-items: center;
+  z-index: 100;
+}
